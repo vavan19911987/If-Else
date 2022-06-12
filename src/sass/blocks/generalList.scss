@@ -1,0 +1,105 @@
+// .output {
+//     width: 100%;
+//     height: 100%;
+// }
+
+body {
+    margin: 20px;
+}
+
+// .input {
+//     border: 1px solid red;
+//     padding: 10px;
+//     width: 20%;
+// }
+
+// .btn {
+//     margin-left: 20px;
+//     font-size: 18px;
+//     padding: 5px 15px ;
+//     background-color: red;
+//     border-radius: 5px;
+// }
+
+// .text {
+//     margin-top: 30px;
+// }
+// .trafficLight {
+//     width: 500px;
+//     display: flex;
+//     justify-content: space-around;
+// }
+// .redActive,
+// .yellowActive,
+// .greenActive {
+//     width: 150px;
+//     height: 150px;
+//     border: 1px solid #000;
+//     margin-top: 20px;
+// }
+
+// .red,
+// .yellow,
+// .green {
+//     padding: 20px;
+//     font-size: 18px;
+//     border-radius: 10px;
+//     margin-right: 20px;
+// }
+
+// .red {
+//     background-color: red;
+// }
+
+// .yellow {
+//     background-color: yellow;
+// }
+
+// .green {
+//     background-color: green;
+// }
+
+//animation
+
+// .car {
+// 	position: relative;
+//     display: block;
+// 	// left: -40%;
+// 	width: 10%;
+// 	// margin: 10px 0px 10px 0px; 
+//     animation-duration: 5s;
+//     animation-name: cars;
+//     animation-iteration-count: infinite;
+//     animation-direction: else;
+
+// }
+
+// @keyframes cars {
+
+// 	0% {
+//         transform: translate(0, 0);
+//     }
+//     100% {
+//         transform: translate(1200%, 0)
+//     }
+// }
+
+.text1, .text2, .text3, .text4 {
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 8px;
+
+
+}
+
+.btn1, .btn2, .btn3, .btn4 {
+    padding: 10px;
+    background-color: green;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+
+.text1::placeholder, .text2::placeholder, .text3::placeholder, .text4::placeholder {
+    color: green;
+}
